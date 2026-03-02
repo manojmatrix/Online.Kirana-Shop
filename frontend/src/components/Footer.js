@@ -7,7 +7,7 @@ const Footer = () => {
   const footerSections = [
     {
       title: "Useful Links",
-      links: ["Home", "Delivery Areas", "Careers", "Customer Support", "Press", "Mojo - a Zepto Blog"]
+      links: ["Home", "Delivery Areas", "Careers", "Customer Support", "Press", "Mojo - a Kirana Blog"]
     },
     {
       title: "Compliance",
@@ -15,7 +15,7 @@ const Footer = () => {
     },
     {
       title: "Partnerships",
-      links: ["Sell on Zepto", "Deliver with Zepto"]
+      links: ["Sell on Zepto", "Deliver with Online.Kirana"]
     }
   ];
 
@@ -64,14 +64,14 @@ const Footer = () => {
         {/* Lower Section: Brand & Nav Links */}
         <Row className="gy-4">
           <Col lg={4} md={12}>
-            <h2 className="fw-bold mb-3" style={{ color: '#ff503e', fontSize: '32px' }}>zepto</h2>
+            <h2 className="fw-bold mb-3" style={{ color: '#ff503e', fontSize: '32px' }}>Online.Kirana</h2>
             <div className="d-flex gap-4 mb-4 text-secondary">
               <FiInstagram size={22} style={{ cursor: 'pointer' }} />
               <FaXTwitter size={22} style={{ cursor: 'pointer' }} />
               <FiFacebook size={22} style={{ cursor: 'pointer' }} />
               <FiLinkedin size={22} style={{ cursor: 'pointer' }} />
             </div>
-            <p className="text-muted mb-1" style={{ fontSize: '12px' }}>© Zepto Marketplace Private Limited</p>
+            <p className="text-muted mb-1" style={{ fontSize: '12px' }}>© Online.Kirana Marketplace Private Limited</p>
             <p className="text-muted" style={{ fontSize: '12px' }}>fssai lic no : 11224999000872</p>
           </Col>
 

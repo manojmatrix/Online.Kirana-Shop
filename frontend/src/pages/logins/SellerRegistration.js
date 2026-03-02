@@ -64,11 +64,13 @@ const SellerRegister = () => {
     return (
         <div className="seller-body">
             <div className="registration-card">
-                <div className="zepto-logo">ZEPTO <span>SELLER</span></div>
-                
+                <div className="zepto-logo purple-version">
+                    Online.Kirana <span>SELLER</span>
+                </div>
+
                 <h2>{step === 1 ? "Grow your business" : "Verify Phone"}</h2>
                 <p className="subtitle">
-                    {step === 1 ? "Join thousands of partners selling on Zepto." : `Enter the code sent to ${formData.phone}`}
+                    {step === 1 ? "Join thousands of partners selling on Online.Kirana." : `Enter the code sent to ${formData.phone}`}
                 </p>
 
                 {step === 1 ? (

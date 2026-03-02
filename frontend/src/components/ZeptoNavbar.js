@@ -347,8 +347,8 @@ const handleDeleteAddress = async (addresses) => {
         <div className="nav-left">
           <Link to="/">
             <img 
-              src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/14.9.0/images/header/primary-logo.svg" 
-              alt="zepto" 
+              src="https://i.postimg.cc/pL0hXGyC/kirana-logo.png" 
+              alt="Online.kirana-Shop" 
               className="zepto-logo-img"
             />
           </Link>

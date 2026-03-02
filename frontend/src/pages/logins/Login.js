@@ -61,7 +61,7 @@ const Login = ({ show, handleClose }) => {
                 {/* LEFT SIDE: THE FORM (PURPLE) */}
                 <div className="login-left-purple">
                     <div className="brand-section">
-                        <h1 className="zepto-logo">zepto</h1>
+                        <h1 className="zepto-logo">Online.Kirana</h1>
                         <h2 className="tagline">Lowest Prices Everyday <br/><span>in 10 minutes*</span></h2>
                     </div>
 
@@ -124,7 +124,7 @@ const Login = ({ show, handleClose }) => {
                     <div className="promo-content">
                         <img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/14.9.0/tr:w-100,ar-100-100,pr-true,f-auto,q-40/images/get-the-app/get-the-app-phone.png" alt="Promo" className="promo-img" />
                         <h3>Order faster & easier everytime</h3>
-                        <p>with the Zepto App</p>
+                        <p>with the Online.Kirana App</p>
                         
                         <div className="store-badges">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play Store" />

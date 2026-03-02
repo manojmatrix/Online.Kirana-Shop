@@ -8,7 +8,7 @@ import cartRoutes from './routes/cartRoutes.js';
 import orderRoutes from './routes/orderRoutes.js';
 
 const app = express();
-const PORT = 8000; // Force match with Frontend
+const PORT = process.env.PORT || 8000;
 
 // Middlewares
 app.use(cors());

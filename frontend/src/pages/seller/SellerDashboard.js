@@ -218,7 +218,7 @@ const SellerDashboard = () => {
     return (
         <div className="seller-wrapper">
             <div className="seller-sidebar shadow">
-                <div className="sidebar-logo">zepto <span>seller</span></div>
+                <div className="sidebar-logo">Online.Kirana <span>seller</span></div>
                 <Nav className="flex-column mt-4 px-2">
                     <Nav.Link onClick={() => setActiveTab('inventory')} className={activeTab === 'inventory' ? 'active' : ''}>
                         <FiBox className="me-2" /> Inventory

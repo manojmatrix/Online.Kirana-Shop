@@ -109,3 +109,15 @@ h2 {
     text-decoration: none;
     font-weight: 700;
 }
+
+/* Modifier for the seller page specifically */
+.zepto-logo.purple-version {
+    color: #8000ff !important;
+    -webkit-text-fill-color: #8000ff !important;
+}
+
+.zepto-logo.purple-version span {
+    color: #8000ff !important;
+    font-weight: 400; /* Optional: make "SELLER" slightly thinner for contrast */
+    margin-left: 5px;
+}

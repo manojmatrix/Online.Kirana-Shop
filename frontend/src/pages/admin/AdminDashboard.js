@@ -375,15 +375,15 @@ const AdminDashboard = () => {
     return (
         <div className="admin-layout">
             <aside className="sidebar-dark shadow">
-                <div className="brand-logo p-4"><h2 className="fw-bold m-0">zepto<span className="text-pink">.</span></h2></div>
+                <div className="brand-logo p-4"><h2 className="fw-bold m-0 text-white">Online.Kirana<span className="text-pink">.</span></h2></div>
                 <Nav className="flex-column px-3 mt-4">
                     <Nav.Link onClick={() => setActiveTab('overview')} className={`side-link ${activeTab === 'overview' ? 'active' : ''}`}><FiActivity className="icon" /> Overview</Nav.Link>
                     <Nav.Link onClick={() => setActiveTab('approvals')} className={`side-link ${activeTab === 'approvals' ? 'active' : ''}`}><FiCheckSquare className="icon" /> Approvals</Nav.Link>
                     <Nav.Link onClick={() => setActiveTab('orders')} className={`side-link ${activeTab === 'orders' ? 'active' : ''}`}><FiShoppingBag className="icon" /> Orders</Nav.Link>
                     <Nav.Link onClick={() => setActiveTab('track')} className={`side-link ${activeTab === 'track' ? 'active' : ''}`}><FiTruck className="icon" /> Tracking</Nav.Link>
                 </Nav>
-                <div className="mt-auto p-4 logout-section">
-                    <Button variant="link" className="text-muted p-0 text-decoration-none" onClick={handleLogout}><FiLogOut className="me-2"/> Log Out</Button>
+                <div className="mt-auto p-4 logout-section text-white">
+                    <Button variant="link" className="text-white p-0 text-decoration-none " onClick={handleLogout}><FiLogOut className="me-2 text-white"/> Log Out</Button>
                 </div>
             </aside>
 
